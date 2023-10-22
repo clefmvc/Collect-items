@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            background-color: rgb(215, 155, 105);
+            border: 0ch;
+            text-align: "center";
+            width: 450px;
+            height: 475px;
+        }
+
+        .onel {
+            text-align: right;
+            width: 70px;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="text-align: center;">
+        <h2 style="color: rgb(38, 91, 164);">注册用户</h2>
+    </div>
+
+     <table align="center">
+        <tr>
+            <td colspan="5">
+                <hr>
+            </td>
+        </tr>
+        <tr>
+            <td class="onel">用户名：</td>
+            <td colspan="4">
+                <input type="text" name="userName" style="text-align: left;width: 300px;" placeholder="请输入用户名"><br>
+            </td>
+        </tr>
+        <tr>
+            <td class="onel">密码：</td>
+            <td colspan="4">
+                <input type="text" name="password" style="text-align: left;width: 300px;" placeholder="请输入密码"><br>
+            </td>
+        </tr>
+        <tr>
+            <td class="onel">性别：</td>
+            <td> <input type="radio" >男
+             <input type="radio">女
+            <input type="radio" checked>保密</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="onel">爱好：</td>
+            <td><input type="checkbox" name="hobby" value="p">玩游戏
+            <input type="checkbox" name="hobby" value="w">看电影
+            <input type="checkbox" name="hobby" value="d1">学习php
+            <input type="checkbox" name="hobby" value="s2">睡懒觉</td>
+        </tr>
+        <tr>
+            <td class="onel">级别：</td>
+            <td><select name="级别"  rowspan="4">
+                    <option value="1级">1级</option>
+                    <option value="2级">2级</option>
+                    <option value="3级">3级</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td class="onel">头像：</td>
+            <td><input type="file" name="选择文件" rowspan="4"></td>
+        </tr>
+        <tr style="height: 100px;">
+            <td rowspan="2" class="onel">简介：</td>
+            <td colspan="4" rowspan="2">
+               <textarea  cols="30" rows="7" placeholder="自我介绍"></textarea>
+               
+            </td>
+        </tr>
+        <tr>
+            <td colspan="5">
+            </td>
+        </tr>
+      
+        <tr>
+            <td colspan="5" style="text-align: center;">
+                <hr><br>
+                <input type="submit" value="注册" id="">
+                <input type="submit" value="重写" id="">
+            </td>
+        </tr>
+    </table>
+
+   
+</body>
+
+</html>
