@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #d{
+            width: 1200px;
+            height: 600px;
+        }
+        p{
+            display: inline;
+        }
+        .text{
+            color: rgb(17, 17, 160);
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        .container{
+            width: 1200px;
+             height: 200px;
+
+             /* 弹性盒子 */
+             display: flex;
+             justify-content: space-between;
+         
+             flex-wrap: wrap;
+             align-items: baseline; 
+        }
+
+        div.d1{
+            width:395px;
+            height:150px;
+            font-size: 40px;
+        }
+        div.d2{
+            width:195px;
+            height:150px;
+            font-size: 25px;
+        }
+        div.d1,div.d2{
+            display: table-cell;
+            /* vertical-align: middle; */
+            padding-top: 45px;
+            text-align: center;
+            color: white; 
+            background-color: rgb(45, 45, 135);
+        }
+        .im{
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="d">
+        <img src="../images/title.png"  class="im" style="text-align: center">
+        <hr><br>
+        <p class="text">热搜新闻词 </p> 
+        <p style="color: rgb(81, 81, 81);">HOT WORDS</p> 
+        <img src="../images/arrow.png" alt="">
+        <br><br>
+
+        <div class="container" >
+
+            <div class="d1" class="c1">
+                <p class="t1">习近平多次阐明中国扩大开放的决心</p>
+            </div>
+
+            <div class="d1" style="background-color:  rgb(121, 121, 204);">
+                <p class="p1">不断开创新时代金融工作新局面</p>
+            </div>
+            
+            <div class="d2" style="position: relative; top: -10px;">
+                <p class="p2">国家安全部:警惕居心叵测做空者</p>
+            </div>
+
+            <div class="d2" style="position: relative; top: -10px;">
+                <p class="p2">教育部回应课间10分钟被约束问题</p>
+            </div>
+
+            <div class="d2"  style="background-color:  rgb(121, 121, 204);">
+                <p class="t1">黑龙江局地将降大暴尊哎雪 或破历史极值</p>
+            </div>
+
+            <div class="d2">
+                <p class="p1">长沙岳麓山有人被拐缅甸?假的</p>
+            </div>
+
+            <div class="d2"  style="background-color:  rgb(121, 121, 204);">
+                <p class="p1">专家称彩礼理念不改婚姻制度要崩溃</p>
+            </div>
+
+            <div class="d2">
+                <p class="p1">广东: 严禁萝卜刀等玩具进校园</p>
+            </div>
+
+            <div class="d2">
+                <p class="p2">央冶昂:高校助学金不能是笔糊涂账</p>
+            </div>
+
+            <div class="d2"  style="background-color:  rgb(121, 121, 204);">
+                <p class="p2">中国代表向安理会成员赠送鲁班锁</p>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

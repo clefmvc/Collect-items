@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            display: inline;
+        }
+        .text1{
+            font-size: 28px;
+            font-weight: bold;
+            color: rgb(17, 17, 160);
+        }
+        .text2{
+            font-size: 15px;
+            color: rgb(81, 81, 81);
+        }
+        select{
+            
+            background-color: rgb(64, 64, 250);
+            color: whitesmoke;
+            font-size: 20px;
+        }
+        .ma{
+            width: 1200px;
+            height: 400px;
+        }
+        .container{
+            width: 1200px;
+            height: 400px;
+
+             /* 弹性盒子 */
+             display: flex;
+             justify-content:start;
+        }
+        .d{
+            width: 450px;
+            height: 400px;
+        }
+        .d2{
+            width: 320px;
+            height: 400px;
+        }
+        .title{
+            color: red;
+            font-weight: bold;
+           font-size: 18px;
+        }
+        .ul1{
+            list-style: square;
+            color: rgb(17, 17, 160);
+        }
+        
+        li p{
+            color: #000;
+        }
+        .title2{
+            color: rgb(17, 17, 160);
+            font-size: 18px;
+            font-weight: bolder;
+        }
+        li{
+            width: 1200px;
+            height: 30px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="ma">
+        <p class="text1">南京新闻</p>
+        <p class="text2">LOCAL NEWS</p>
+        <img src="../images/arrow.png" alt="">
+        &nbsp; &nbsp; 
+        <select name="city" id="">
+            <br>
+            <option value="南京" selected >切换城市</option>
+        </select>
+        <br>
+        <hr>
+        <div class="container">
+            <div class="d">
+                   <!-- <ul class="ul1">  -->
+                    <li class="title"><p>南京全民健身中心设备设施焕新升级一池碧波的背..</p></li>
+                    <br>
+                    <li><p>江苏上千场七夕活动:文以“乞巧”，搭起“爱与暖...</p></li>
+                    <li><p>上半年全省农村网络零售额增长8%“互联网+”...</p></li>
+                    <li><p>南京江宁谷里强化夜间巡查管控维护良好市容秩序</p></li>
+                    <li><p>三米玫瑰空降鼓楼，十米大屏“弹幕”示爱--七夕...</p></li>
+                    <li><p>南京雨花台城管开展“童心协力向绿色 垃圾分类我...</p></li>
+                    <li><p>河海大学常州新校区迎来首批学生，校地领导送上...</p></li>
+                    <li><p>嘉宾层次高、成果亮点多、办会模式新 第二届江苏..</p></li>
+                <!-- </ul> -->
+            </div>
+            <div class="d2">
+                <p class="title2">|新闻图片</p>
+                <br><br>
+                <div style="width: 312px;height:235px;  background-color: rgba(121, 121, 125, 0.313);">
+                    <img src="../images/news.jpeg" alt="">
+                    <p>江苏“提干劲”走在前</p>
+                </div>
+            </div>
+            <div class="d">
+                <p class="title2">|新闻资讯</p>
+                <ul class="ul2">
+                    <li>社区养老顾问到场，为老人服务并招募志愿者</li>
+                    <li>浪漫七夕来了，南京多个景区推出甜蜜活动</li>
+                    <li>人事局|江苏多所高校主要领导调整</li>
+                    <li>江苏这些爱情圣地，你去打过卡吗?</li>
+                    <li>十年跨越山海，换来千余患儿新生记江苏</li>
+                    <li>南京市举办首届职工七夕文化活动</li>
+                    <li>男子近视开车忘戴眼镜，视线模糊不慎撞上隔</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
