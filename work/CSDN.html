@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .all{
+
+            position: relative;
+            display: flex;
+            justify-content: start;
+            background-color: aliceblue;
+            margin: 0px auto;
+            
+            width: 1300px;
+            height: 50px;
+        }
+        .f1{
+            width: 600px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .f2{
+            width: 400px;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+        }
+        
+        li{
+            display: inline;
+            list-style: none;
+            margin-left: 0px;
+            margin-right: 5px;
+        }
+        input{
+            height: 25px;
+            position: relative;
+        }
+        button{
+            height: 25px;
+        }
+        a{
+            color: rgb(0, 0, 0);   
+            font-size: 19px;
+            text-decoration: none;
+        }
+
+        .search{
+            width: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #s1{
+            border: 0;
+            height: 25px;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+        }
+        #s2{
+            background-color:  rgb(207, 49, 49);
+            height: 25px;
+            border: 0;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+        .ss{
+            background-color: rgb(207, 49, 49);
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+
+            border: 0;
+            height: 25px;
+        }
+   
+    </style>
+</head>
+<body>
+    <div class="all">
+        <div class="f1">
+            <img src="../images/csdn.png" width="" >
+        <ul>
+            <li><a href="">博客</a></li>
+            <li><a href="">下载</a></li>
+            <li><a href="">学习</a></li>
+            <li><a href="">社区</a></li>
+            <li><a href="">插件</a></li>
+            <li><a href="">GitCode</a></li>
+            <li><a href="">Inscode</a></li>
+        </ul>
+        </div>
+     <div class="search">
+        <input type="text" class="text" id="s1" placeholder="按键精灵实现文本导入">
+        <input type="button" value="搜索" id="s2">&nbsp;&nbsp;
+        <a>登录</a>
+     </div>
+       <div class="f2">
+        <ul style="list-style: none;margin: 0;padding: 0;">
+            <li><a href="" style="color: red;">会员11.11</a></li>
+            <li><a href="">消息</a></li>
+            <li><a href="">历史</a></li>
+            <li><a href="">创作中心</a></li>
+        </ul>
+        &nbsp;
+        <button class="ss">
+            <span>发布</span>
+        </button>
+       </div>
+    </div>
+</body>
+</html>
